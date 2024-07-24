@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(https://uhdwallpapers.org/uploads/converted/18/01/19/designer-work-place-5120x2880_756-mm-90.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+    margin: 0px auto;
+}
+
+.head h1 {
+    font-size: 90px;
+    font-family: san;
+    font-weight: bold;
+    color: white;
+}
+
+.head h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.header-main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.delivery {
+    width: 100%;
+    height: 500px;
+    margin-top: 3%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.418)),
+        url(https://png.pngtree.com/background/20240114/original/pngtree-cargo-van-truck-delivery-workers-unloading-cardboard-parcel-boxes-on-a-picture-image_7270698.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.returns {
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    padding: 180px 0px 0px 0px;
+}
+
+.returns h1 {
+    margin-right: 100px;
+    font-family: san;
+    font-size: 55px;
+    color: white;
+    line-height: 60px;
+}
+
+.returns p {
+    width: 60%;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer {
+    width: 100%;
+    background-color: #DDDDDD;
+}
+
+.head-main {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+
+@media screen and (max-width: 640px) {
+    .head h1 {
+        width: 100%;
+        font-size: 50px;
+        font-family: san;
+        font-weight: bold;
+        color: white;
+        margin-top: 5%;
+    }
+
+    .head h4 {
+        width: 60%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .button {
+        width: 150px;
+        padding: 10px;
+        background-color: white;
+        /* margin-top: 30%; */
+        border-radius: 30px;
+    }
+
+    .returns {
+        max-width: 100%;
+        margin: auto;
+        padding: 15% 16%;
+        display: inline-block;
+    }
+    
+    .returns h1 {
+        width: 100%;
+        font-family: san;
+        font-size: 35px;
+        color: white;
+        line-height: 60px;
+    }
+    
+    .returns p {
+        margin-top: 1%;
+        width: 90%;
+        font-size: 14px;
+        color: white;
+        font-family: sans-serif;
+    }
+}

@@ -1,0 +1,10 @@
+.img{
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(0, 0, 0,0.25),rgba(0, 0, 0,0.25)),
+			 url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette_1258-48251.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
